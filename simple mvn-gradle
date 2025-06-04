@@ -1,0 +1,7 @@
+mvn archetype:generate -DgroupId=com.example -DartifactId=MyMavenApp -DarchetypeArtifactiId=maven-archetype-quickstart -DinteractiveMode=false
+
+task display{
+doLast{
+println '6A devops class'
+}
+}
